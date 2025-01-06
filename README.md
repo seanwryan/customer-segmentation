@@ -57,22 +57,22 @@ The dataset was obtained from the following competition:
      - Segment A: 1,972 customers
      - Segment C: 1,970 customers
      - Segment B: 1,858 customers
-   - ![Target Variable Distribution](./plots/Target Variable Distribution.png)
+   - ![Target Variable Distribution](./plots/Target_Variable_Distribution.png)
 
 2. **Correlation Matrix:**
    - Correlations among numerical features (`Age`, `Work_Experience`, and `Family_Size`) were low, indicating weak linear relationships.
-   - ![Correlation Matrix](.plots/Correlation Matrix.png)
+   - ![Correlation Matrix](.plots/Correlation_Matrix.png)
 
 3. **Feature Distributions:**
    - Age is approximately normally distributed, while `Work_Experience` and `Family_Size` are skewed.
-   - ![Feature Distributions](./plots/Feature Distributions.png)
+   - ![Feature Distributions](./plots/Feature_Distributions.png)
 
 ### KMeans Clustering
 - **Silhouette Score:** 0.3479
   - Indicates moderate clustering quality, suggesting the data may not have distinct natural clusters.
 - **Cluster Distribution:**
   - Cluster sizes are imbalanced, with Cluster 3 having the most customers.
-  - ![Cluster Distribution](./plots/Cluster Distribution (KMeans).png)
+  - ![Cluster Distribution](./plots/Cluster_Distribution_(KMeans).png)
 
 ### Random Forest Classifier
 - **Accuracy:** 95.72%
