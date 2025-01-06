@@ -61,18 +61,18 @@ The dataset was obtained from the following competition:
 
 2. **Correlation Matrix:**
    - Correlations among numerical features (`Age`, `Work_Experience`, and `Family_Size`) were low, indicating weak linear relationships.
-   - ![Correlation Matrix](./plots/Correlation_Matrix.png)
+   - ![Correlation Matrix](./customer-segmentation/plots/Correlation_Matrix.png)
 
 3. **Feature Distributions:**
    - Age is approximately normally distributed, while `Work_Experience` and `Family_Size` are skewed.
-   - ![Feature Distributions](./plots/Feature_Distributions.png)
+   - ![Feature Distributions](./customer-segmentation/plots/Feature_Distributions.png)
 
 ### KMeans Clustering
 - **Silhouette Score:** 0.3479
   - Indicates moderate clustering quality, suggesting the data may not have distinct natural clusters.
 - **Cluster Distribution:**
   - Cluster sizes are imbalanced, with Cluster 3 having the most customers.
-  - ![Cluster Distribution](./plots/Cluster_Distribution.png)
+  - ![Cluster Distribution](/customer-segmentation/plots/Cluster_Distribution.png)
 
 ### Random Forest Classifier
 - **Accuracy:** 95.72%
