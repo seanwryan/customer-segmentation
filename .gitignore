@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+*.pyo
+env/
+.vscode/
+.DS_Store
+*.csv  # If you prefer not to track data files; otherwise, omit this line
