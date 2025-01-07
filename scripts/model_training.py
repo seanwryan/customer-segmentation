@@ -76,9 +76,3 @@ if __name__ == "__main__":
 
     # Save model and metrics
     save_model_and_metrics(model, accuracy, f1, report, matrix)
-
-    # Summary of results
-    if accuracy > 0.8 and f1 > 0.8:
-        print("\nThe model is performing well. Consider publishing the project!")
-    else:
-        print("\nThe model needs further improvement before publishing.")
